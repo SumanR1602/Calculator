@@ -122,3 +122,47 @@ td p {
    
 }
 
+@media screen and (max-width: 768px) {
+    .head h1 {
+        font-size: 2rem;
+        padding: 0;
+    }
+    .head {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+    }
+    .mode i {
+        font-size: 2rem;
+        padding: 0.8rem;
+    }
+    .calci {
+        justify-content: center;
+    }
+    .calci-content {
+        padding: 1.5rem;
+    }
+    td {
+        font-size: 1rem;
+        padding: 2px 12px;
+    }
+    td i {
+        font-size: 1rem;
+    }
+    .sm {
+        font-size: 1rem;
+        font-family: Arial;
+        font-weight: 600;
+    }
+    .box {
+        font-size: 1.5rem;
+        padding: 6px 21px;
+        height: 2rem;
+    }
+    td p {
+        height: 2rem;
+        font-size: 2.5rem;
+    }
+
+}
+
